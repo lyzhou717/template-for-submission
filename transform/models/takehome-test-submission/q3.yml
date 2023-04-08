@@ -1,0 +1,13 @@
+models:
+  - name: q3
+    description: >
+      Answer to Q3 of take home test
+    meta:
+      owner: lyzhou717@gmail.com
+    columns:
+      - country_name
+        description: Name of country.
+      - vendor_name
+        description: Name of most active vendor by GMV for country. 
+      - total_gmv
+        description: GMV calculated for most active vendor for country.
