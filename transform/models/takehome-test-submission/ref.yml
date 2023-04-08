@@ -1,0 +1,30 @@
+models:
+  - name: reference
+    description: >
+      Answer to Part E of take home test
+    meta:
+      owner: candidate@foodpanda.com
+    columns:
+      - year
+        description: Year of data (2014).
+      - country_name
+        description: Name of country.
+      - vendor_name
+        description: Name of top 2 vendor for country (ordered by GMV descending) in that year
+      - total_gmv
+        description: GMV calculated for each top 2 vendor for country in that year.
+        
+  - name: q4
+    description: >
+      Answer to Q4 of take home test
+    meta:
+      owner: candidate@foodpanda.com
+    columns:
+      - year
+        description: Year of data.
+      - country_name
+        description: Name of country.
+      - vendor_name
+        description: Name of top 2 vendor for country (ordered by GMV descending) in that year
+      - total_gmv
+        description: GMV calculated for each top 2 vendor for country in that year.
