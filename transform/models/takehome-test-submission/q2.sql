@@ -7,7 +7,7 @@
 WITH taiwan_vendors AS (
   SELECT
     vendors.vendor_name,
-    COUNT(DISTINCT(orders.customer_id)), 
+    COUNT(DISTINCT(orders.customer_id)) AS customer_count, 
     SUM(orders.gmv_local) AS total_gmv
   FROM foodpanda.orders JOIN foodpanda.vendors ON orders.vendor_id = vendors.id
   WHERE orders.country_name = 'Taiwan'
