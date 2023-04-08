@@ -3,7 +3,7 @@ models:
     description: >
       Answer to Q4 of take home test
     meta:
-      owner: lyzhou717@gmail.com
+      owner: candidate@foodpanda.com
     columns:
       - year
         description: Year of data.
